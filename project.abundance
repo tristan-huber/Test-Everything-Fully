@@ -616,11 +616,6 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry",
-          "ap1ID": "d8170d63-5f0b-4c4c-901e-560b8425c7f5",
-          "ap2ID": "34637e91-fdfe-4301-9152-bcfb6f63ee32"
-        },
-        {
           "ap2Name": "Shape 2",
           "ap1ID": "9ed3aa86-5834-4d83-8935-c4a58f1d1cae",
           "ap2ID": "f37fc0cd-4908-48ef-9028-353b3a9a5814"
@@ -1074,7 +1069,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 15
+              "ioValue": 14
             },
             {
               "name": "yDist",
