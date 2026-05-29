@@ -1223,7 +1223,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.23714285714285713,
+          "y": 0.15384615384615385,
           "uniqueID": "9ed3aa86-5834-4d83-8935-c4a58f1d1cae",
           "name": "Input Geometry",
           "type": "number"
@@ -1238,7 +1238,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.52,
+          "y": 0.24615384615384617,
           "uniqueID": "640c2f18-6623-492e-bfe4-86321314d06e",
           "name": "Input Number",
           "type": "number"
@@ -1421,8 +1421,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": -90,
-              "currentEquation": "-90"
+              "ioValue": -90
             },
             {
               "name": "y-axis degrees",
