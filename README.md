@@ -2,7 +2,7 @@
 
 # Test-Everything-Fully
 
-![](/project.svg)
+![](/project.png)
 
 
 
