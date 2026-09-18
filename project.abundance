@@ -103,7 +103,7 @@
         {
           "atomType": "Assembly",
           "x": 0.8,
-          "y": 0.3,
+          "y": 0.1,
           "uniqueID": "214ba78e-4c3d-4082-b7e9-f02518df95c4",
           "ioValues": [
             {
@@ -288,6 +288,30 @@
           ]
         },
         {
+          "atomType": "Assembly",
+          "x": 0.7,
+          "y": 0.8,
+          "uniqueID": "id-2371",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
           "atomType": "Code",
           "x": 0.4,
           "y": 0.5,
@@ -330,11 +354,6 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "214ba78e-4c3d-4082-b7e9-f02518df95c4",
-          "ap2ID": "faf86338-1436-4de4-acce-80039d574fe2"
-        },
-        {
           "ap2Name": "J",
           "ap1ID": "329a1c38-1fd0-442b-ae54-3e0751a12734",
           "ap2ID": "97a92ef6-dce1-43f1-854a-68cd16468a03"
@@ -348,6 +367,11 @@
           "ap2Name": "Shape 2",
           "ap1ID": "42223202-21a0-43a9-b344-598708bd9a6e",
           "ap2ID": "214ba78e-4c3d-4082-b7e9-f02518df95c4"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "42223202-21a0-43a9-b344-598708bd9a6e",
+          "ap2ID": "id-2371"
         },
         {
           "ap2Name": "xDist",
@@ -386,8 +410,18 @@
         },
         {
           "ap2Name": "Shape 1",
+          "ap1ID": "ca6ac38a-c7cd-47a9-9e9d-91277b50aa32",
+          "ap2ID": "id-2371"
+        },
+        {
+          "ap2Name": "Shape 1",
           "ap1ID": "f37fc0cd-4908-48ef-9028-353b3a9a5814",
           "ap2ID": "214ba78e-4c3d-4082-b7e9-f02518df95c4"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "f37fc0cd-4908-48ef-9028-353b3a9a5814",
+          "ap2ID": "id-2371"
         },
         {
           "ap2Name": "Shape 3",
@@ -395,9 +429,19 @@
           "ap2ID": "214ba78e-4c3d-4082-b7e9-f02518df95c4"
         },
         {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-1426",
+          "ap2ID": "id-2371"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-831",
           "ap2ID": "34637e91-fdfe-4301-9152-bcfb6f63ee32"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2371",
+          "ap2ID": "faf86338-1436-4de4-acce-80039d574fe2"
         }
       ],
       "fileTypeVersion": 1
@@ -2196,11 +2240,6 @@
       "ap2ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed",
-      "ap2ID": "fac857fe-e92a-4c1d-ac61-e8b0fc4e205c"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed",
       "ap2ID": "id-1713"
@@ -2224,6 +2263,11 @@
       "ap2Name": "geometry",
       "ap1ID": "6ca87a2c-5604-4e28-8e39-f4e3db22b39b",
       "ap2ID": "8e901b4d-e891-4b45-8826-1ffd32213f9e"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "6ca87a2c-5604-4e28-8e39-f4e3db22b39b",
+      "ap2ID": "fac857fe-e92a-4c1d-ac61-e8b0fc4e205c"
     },
     {
       "ap2Name": "geometry",
