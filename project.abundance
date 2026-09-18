@@ -222,8 +222,12 @@
           "uniqueID": "f37fc0cd-4908-48ef-9028-353b3a9a5814",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -270,20 +274,24 @@
           "uniqueID": "id-2371",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 4",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -795,20 +803,24 @@
           "uniqueID": "b2929101-7945-47ba-909e-b00c59aa0058",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 5",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -1021,12 +1033,16 @@
           "uniqueID": "26ecee4d-e8a9-40a8-8049-cfeb246337e7",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 4",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -1595,16 +1611,20 @@
           "uniqueID": "637cecda-5832-45ce-8b8e-fbbc1e5cd86a",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -1781,24 +1801,28 @@
       "uniqueID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed",
       "ioValues": [
         {
+          "name": "makeDisjoint",
+          "ioValue": false
+        },
+        {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 2",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 4",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 5",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
@@ -1949,12 +1973,16 @@
           "uniqueID": "d0d84a2a-e976-4f53-ac51-a0b0ca30af79",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
