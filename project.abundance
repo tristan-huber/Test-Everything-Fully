@@ -41,7 +41,7 @@
     {
       "atomType": "Move",
       "x": 0.6,
-      "y": 0.7,
+      "y": 0.8,
       "uniqueID": "3352a0ec-8df2-4c40-b85a-cb4ca6657ef7",
       "ioValues": [
         {
@@ -64,7 +64,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4,
+      "x": 0.3,
       "y": 0.3,
       "uniqueID": "4f7f7078-d932-4bd4-a14b-d9a726abafdf",
       "ioValues": [
@@ -1538,8 +1538,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2,
-      "y": 0.4,
+      "x": 0.1,
+      "y": 0.3,
       "uniqueID": "de21c536-2034-4063-9539-192a69c5981d",
       "name": "Shapes",
       "topLevel": false,
@@ -2090,6 +2090,78 @@
       ],
       "includeUntagged": false,
       "notKeepOut": false
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.4,
+      "y": 0.4,
+      "uniqueID": "id-2049",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "shapes",
+          "currentEquation": "shapes"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 3
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 2
+        },
+        {
+          "name": "Source Link",
+          "ioValue": ""
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "shapes",
+        "numberNeeded": 3,
+        "costUSD": 2,
+        "source": ""
+      }
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.3,
+      "y": 0.9,
+      "uniqueID": "id-2056",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "New Item",
+          "currentEquation": "New Item"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 9
+        },
+        {
+          "name": "Source Link",
+          "ioValue": ""
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "New Item",
+        "numberNeeded": 1,
+        "costUSD": 9,
+        "source": ""
+      }
     }
   ],
   "allConnectors": [
@@ -2101,7 +2173,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "30e7e952-806b-4632-a0fb-1b3c1b0871d0",
-      "ap2ID": "20e1e580-4999-47c5-b72c-adb1e535a385"
+      "ap2ID": "id-2056"
     },
     {
       "ap2Name": "geometry",
@@ -2109,9 +2181,9 @@
       "ap2ID": "id-1710"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "geometry",
       "ap1ID": "4f7f7078-d932-4bd4-a14b-d9a726abafdf",
-      "ap2ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed"
+      "ap2ID": "id-2049"
     },
     {
       "ap2Name": "Shape 5",
@@ -2162,6 +2234,16 @@
       "ap2Name": "geometry",
       "ap1ID": "ceeeff44-be3b-46e2-a304-44f72cc4399a",
       "ap2ID": "3352a0ec-8df2-4c40-b85a-cb4ca6657ef7"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-2049",
+      "ap2ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2056",
+      "ap2ID": "20e1e580-4999-47c5-b72c-adb1e535a385"
     }
   ],
   "unitsKey": "MM",
