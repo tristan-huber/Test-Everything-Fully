@@ -2273,6 +2273,94 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.7,
+      "y": 0.5,
+      "uniqueID": "id-3314",
+      "name": "Width",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 1,
+          "y": 0.5,
+          "uniqueID": "id-3311",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0,
+          "y": 0.2,
+          "uniqueID": "id-3312",
+          "name": "Shape",
+          "type": "geometry",
+          "options": []
+        },
+        {
+          "atomType": "Code",
+          "x": 0.4,
+          "y": 0.5,
+          "uniqueID": "id-3313",
+          "ioValues": [
+            {
+              "name": "A",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "interpreterVersion": 0,
+          "code": "/**\n Inputs for this Code Atom:\n - Takes a single geometry input \"A\" and returns its width (X size) as measured by the bounding box.\n*/\nInputs = [\n  { inputName: \"A\", type: \"geometry\", defaultValue: null }\n]\n\nif (!A) {\n  // No input provided — return null to indicate absence.\n  return null\n}\n\n// Get bounding box of A. boundsA.min and boundsA.max are arrays [x, y, z]\nlet boundsA = await GetBounds(A);\nlet min = boundsA.min;\nlet max = boundsA.max;\n\n// Compute width along X (maxX - minX)\nlet width = max[0] - min[0];\n\n// Ensure a non-negative numeric result\nwidth = typeof width === 'number' && isFinite(width) ? Math.max(0, width) : null;\n\nreturn width;"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "A",
+          "ap1ID": "id-3312",
+          "ap2ID": "id-3313"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-3313",
+          "ap2ID": "id-3311"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-09-18T18:23:39.036Z",
+        "privateRepo": false,
+        "repoName": "Width",
+        "dateCreated": "2025-12-04T20:14:11Z",
+        "likes": 0,
+        "readme": "https://raw.githubusercontent.com/BarbourSmith/Width/master/README.md?sanitize=true",
+        "topMoleculeID": "",
+        "userRanking": 0,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Width",
+        "topics": [],
+        "pullRequests": [],
+        "forks": 0,
+        "ranking": 2.1,
+        "searchField": "width barboursmith takes a shape and returns the width as measurred by the shapes bounding box ",
+        "owner": "BarbourSmith",
+        "description": "Takes a shape and returns the width as measurred by the shapes bounding box",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Width/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Width/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1789772299656
     }
   ],
   "allConnectors": [
@@ -2305,6 +2393,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "8e901b4d-e891-4b45-8826-1ffd32213f9e",
       "ap2ID": "id-2997"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "8e901b4d-e891-4b45-8826-1ffd32213f9e",
+      "ap2ID": "id-3314"
     },
     {
       "ap2Name": "Shape 3",
