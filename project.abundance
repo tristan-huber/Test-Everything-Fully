@@ -2149,7 +2149,7 @@
         },
         {
           "name": "Cost (USD)",
-          "ioValue": 9.01
+          "ioValue": 9.02
         },
         {
           "name": "Source Link",
@@ -2159,7 +2159,7 @@
       "BOMitem": {
         "BOMitemName": "New Item",
         "numberNeeded": 1,
-        "costUSD": 9.01,
+        "costUSD": 9.02,
         "source": ""
       }
     }
