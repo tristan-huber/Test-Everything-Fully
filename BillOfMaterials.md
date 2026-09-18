@@ -2,6 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|shapes|6|$4.00||
-|New Item|13|$117.26||
-|Total: |19|$121.26| |
+|shapes|3|$2.00||
+|New Item|10|$90.20||
+|Total: |13|$92.20| |
