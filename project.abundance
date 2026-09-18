@@ -8,7 +8,7 @@
   "allAtoms": [
     {
       "atomType": "Extrude",
-      "x": 0.2,
+      "x": 0.3,
       "y": 0.7,
       "uniqueID": "20e1e580-4999-47c5-b72c-adb1e535a385",
       "ioValues": [
@@ -209,7 +209,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.2,
+          "y": 0.4,
           "uniqueID": "9ed3aa86-5834-4d83-8935-c4a58f1d1cae",
           "name": "Input Geometry",
           "type": "number",
@@ -418,7 +418,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 29
+          "ioValue": 28
         },
         {
           "name": "zDist",
@@ -2129,8 +2129,8 @@
     },
     {
       "atomType": "Add-BOM-Tag",
-      "x": 0.3,
-      "y": 0.9,
+      "x": 0.2,
+      "y": 0.8,
       "uniqueID": "id-2056",
       "name": "Add BOM Tag",
       "ioValues": [
