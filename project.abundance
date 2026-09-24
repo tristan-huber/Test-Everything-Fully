@@ -2259,22 +2259,6 @@
       "lastReloadedFromGithubAt": 1789760843149
     },
     {
-      "atomType": "Assembly",
-      "x": 0.8,
-      "y": 0.6,
-      "uniqueID": "id-2997",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.7,
       "y": 0.5,
@@ -2361,6 +2345,22 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1789772299656
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8,
+      "y": 0.8,
+      "uniqueID": "id-3635",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2380,6 +2380,11 @@
       "ap2ID": "id-1710"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "3352a0ec-8df2-4c40-b85a-cb4ca6657ef7",
+      "ap2ID": "id-3635"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "4f7f7078-d932-4bd4-a14b-d9a726abafdf",
       "ap2ID": "id-2049"
@@ -2388,11 +2393,6 @@
       "ap2Name": "Shape 5",
       "ap1ID": "8e901b4d-e891-4b45-8826-1ffd32213f9e",
       "ap2ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "8e901b4d-e891-4b45-8826-1ffd32213f9e",
-      "ap2ID": "id-2997"
     },
     {
       "ap2Name": "Shape",
@@ -2420,11 +2420,6 @@
       "ap2ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-1710",
-      "ap2ID": "id-2997"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-1713",
       "ap2ID": "fac857fe-e92a-4c1d-ac61-e8b0fc4e205c"
@@ -2433,6 +2428,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-2049",
       "ap2ID": "e06ea999-1ddb-4d47-82da-d3f96cb03fed"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-2049",
+      "ap2ID": "id-3635"
     },
     {
       "ap2Name": "geometry",
